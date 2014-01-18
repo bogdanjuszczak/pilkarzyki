@@ -1,0 +1,32 @@
+<!Doctype HTML>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Home automation system</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-switch.css">
+  <link rel="stylesheet" href="/css/homeautomation.css">
+  
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-1">
+				<div class="box blue">
+					<h3>Are pilkarzyki occupied?</h3>
+					<span class="box-value" id="motion"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  	<script src="/js/bootstrap.min.js"></script>
+  	<script src="/js/bootstrap-switch.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+  	<script src="/js/motionsensor.js"></script>
+</body>
+
+</html>
